@@ -2,7 +2,7 @@
   <img src="logo.svg" />
 </p>
 
-<h1 align="center">CloudCannon Suite</h1>
+<h1 style="font-weight: bold;" align="center">CloudCannon Suite</h1>
 
 ## Usage
 
