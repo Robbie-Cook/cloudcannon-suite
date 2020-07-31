@@ -3,12 +3,13 @@
   "version": "2.0.0-rc7",
   "description": "A suite of gulp tools to manage static sites on CloudCannon",
   "main": "index.js",
-  "bin": "src/cli",
+  "bin": "dist/cli.js",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
-    "test": "mocha test/unit/**/*.js --reporter spec --check-leaks --bail"
+    "test": "mocha test/unit/**/*.js --reporter spec --check-leaks --bail",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
