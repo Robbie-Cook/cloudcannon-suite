@@ -3,7 +3,10 @@
   "version": "2.0.0-rc7",
   "description": "A suite of gulp tools to manage static sites on CloudCannon",
   "main": "index.js",
-  "bin": "dist/cli.js",
+  "bin": {
+    "install": "dist/bin/install.js",
+    "start": "dist/bin/start.js"
+  },
   "directories": {
     "doc": "docs"
   },
@@ -30,6 +33,7 @@
   "dependencies": {
     "@cloudcannon/screenshot-util": "^1.1.12",
     "@google-cloud/language": "^2.1.0",
+    "@robbie-cook/node-helper": "^2.0.2",
     "ansi-colors": "^3.2.1",
     "async": "^2.6.1",
     "await-exec": "^0.1.2",
