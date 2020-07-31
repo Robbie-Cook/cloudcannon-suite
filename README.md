@@ -2,7 +2,12 @@
   <img src="logo.svg" />
 </p>
 
-# cloudcannon-suite
+<h1 align="center">CloudCannon Suite</h1>
+
+## Usage
+
+You can find full setup instructions here: 
+https://suite.cloudcannon.com/dev/setup/
 
 ## Local development
 Run `yarn link` in your cloudcannon-suite install folder
